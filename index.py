@@ -1,7 +1,7 @@
 
 from pymongo.mongo_client import MongoClient
 
-uri = "mongodb+srv://vicky:vignesh2008@atlascluster.by5qydw.mongodb.net/?retryWrites=true&w=majority"
+uri = "{{replace MongoDB Connection URL}}"
 
 # Create a new client and connect to the server
 client = MongoClient(uri)

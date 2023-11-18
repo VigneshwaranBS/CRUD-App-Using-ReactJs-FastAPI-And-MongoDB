@@ -20,7 +20,7 @@ app.add_middleware(
 
 
 # Connect to your MongoDB Atlas cluster
-mongo_client = MongoClient("mongodb+srv://vicky:vignesh2008@atlascluster.by5qydw.mongodb.net/?retryWrites=true&w=majority")
+mongo_client = MongoClient("{{Replace With MongoDB URI}}")
 
 
 db = mongo_client["todo"]
